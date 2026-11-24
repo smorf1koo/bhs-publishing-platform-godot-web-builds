@@ -1,0 +1,11 @@
+# Godot 4: cache and imported resources are regenerated on open.
+# Commit *.import and *.uid files: they hold import settings and resource IDs.
+.godot/
+# Web export and generated test archives are build artifacts, not sources.
+game/build/
+archives/*.zip
+results.csv
+*.pck
+*.wasm
+__pycache__/
+.DS_Store

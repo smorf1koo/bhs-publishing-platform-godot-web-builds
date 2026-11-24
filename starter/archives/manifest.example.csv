@@ -1,0 +1,3 @@
+archive,expected_verdict,expected_reason,description
+valid_minimal.zip,accept,,"index.html, index.wasm, index.pck и index.js в корне архива"
+no_pck.zip,reject,missing_pck,"как valid_minimal.zip, но без index.pck"
